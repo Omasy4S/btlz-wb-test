@@ -20,15 +20,15 @@
 ### 1. Клонируй репозиторий
 
 bash
-git clone https://github.com/Omasy4S/btlz-wb-test.git
-cd btlz-wb-test
+> git clone https://github.com/Omasy4S/btlz-wb-test.git
+> cd btlz-wb-test
 
 ### 2. Заполни .env в корне проекта под свой api и таблицу.
 
 ### 3. Раскомментить тестовый код.
 
-Сейчас код для api закомменчен и используется тестовый как заглушка. Чтобы он работал, необходимо удалить тестовый fetchAndSaveTariffs,
-раскомментить основной, он помечен как "Основная задача", /*import { WBApiService } from "./services/WBApiService.js";*/ и /*const wbService = new WBApiService();*/
+> Сейчас код для api закомменчен и используется тестовый как заглушка. Чтобы он работал, необходимо удалить тестовый fetchAndSaveTariffs,
+> раскомментить основной, он помечен как "Основная задача", /*import { WBApiService } from "./services/WBApiService.js";*/ и /*const wbService = new WBApiService();*/
 
 ### 4. Запустить все компоненты через команду docker compose up или docker compose up -d --build app в терминале. Слева сверху вид -> терминал
 
