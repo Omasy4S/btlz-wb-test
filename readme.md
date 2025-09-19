@@ -2,7 +2,7 @@
 
 > **Цель**: Создать сервис, который ежечасно получает тарифы WB, сохраняет их в БД и выгружает в N Google Таблиц.
 Сама таблица для просмотра вывода. На данный момент там тестовые значения:
-> https://docs.google.com/spreadsheets/d/1-4PQMJzV2xs85uGjdHAFeLGwTA7qlbJFj38uzFyeVfE/edit?gid=0#gid=0
+https://docs.google.com/spreadsheets/d/1-4PQMJzV2xs85uGjdHAFeLGwTA7qlbJFj38uzFyeVfE/edit?gid=0#gid=0
 
 ---
 
@@ -27,8 +27,8 @@ bash
 
 ### 3. Раскомментить тестовый код.
 
-> Сейчас код для api закомменчен и используется тестовый как заглушка. Чтобы он работал, необходимо удалить тестовый fetchAndSaveTariffs,
-> раскомментить основной, он помечен как "Основная задача", /*import { WBApiService } from "./services/WBApiService.js";*/ и /*const wbService = new WBApiService();*/
+Сейчас код для api закомменчен и используется тестовый как заглушка. Чтобы он работал, необходимо удалить тестовый fetchAndSaveTariffs,
+раскомментить основной, он помечен как "Основная задача", /*import { WBApiService } from "./services/WBApiService.js";*/ и /*const wbService = new WBApiService();*/
 
 ### 4. Запустить все компоненты через команду docker compose up или docker compose up -d --build app в терминале. Слева сверху вид -> терминал
 
