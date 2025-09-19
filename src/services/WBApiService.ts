@@ -28,7 +28,8 @@ export class WBApiService {
                 params: { date },
             });
 
-            const data = response.data.response.data;
+            const data = response.data?.response?.data;
+
 
             if (!data?.warehouseList || !Array.isArray(data.warehouseList)) {
                 throw new Error("Invalid data structure");

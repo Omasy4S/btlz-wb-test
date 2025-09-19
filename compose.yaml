@@ -60,7 +60,7 @@ services:
       POSTGRES_PASSWORD: ${POSTGRES_PASSWORD}
       PORT: ${APP_PORT}
       NODE_ENV: production
-      WB_API_KEY: WBAPI  # ← добавляем WB api
+      WB_API_KEY: ${WB_API_KEY}  # ← добавляем WB api
       GOOGLE_SHEETS_CREDENTIALS_JSON: ${GOOGLE_SHEETS_CREDENTIALS_JSON}  # ← добавляет google sheets
 
     ports:
