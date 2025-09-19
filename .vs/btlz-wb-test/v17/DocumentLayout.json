@@ -1,0 +1,326 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Omyy\\source\\repos\\btlz-wb-test\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Omyy\\source\\repos\\btlz-wb-test\\.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Omyy\\source\\repos\\btlz-wb-test\\.gitattributes||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:.gitattributes||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Omyy\\source\\repos\\btlz-wb-test\\src\\app.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\app.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Omyy\\source\\repos\\btlz-wb-test\\.prettierrc.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:.prettierrc.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Omyy\\source\\repos\\btlz-wb-test\\jsconfig.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:jsconfig.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Omyy\\source\\repos\\btlz-wb-test\\package-lock.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:package-lock.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Omyy\\source\\repos\\btlz-wb-test\\package.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:package.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Omyy\\source\\repos\\btlz-wb-test\\example.env||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:example.env||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Omyy\\source\\repos\\btlz-wb-test\\Dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Omyy\\source\\repos\\btlz-wb-test\\compose.yaml||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:compose.yaml||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Omyy\\source\\repos\\btlz-wb-test\\readme.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:readme.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Omyy\\source\\repos\\btlz-wb-test\\src\\postgres\\migrations\\20250227184908_tariffs.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\postgres\\migrations\\20250227184908_tariffs.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Omyy\\source\\repos\\btlz-wb-test\\src\\config\\knex\\seed.stub.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\config\\knex\\seed.stub.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Omyy\\source\\repos\\btlz-wb-test\\src\\config\\knex\\migration.stub.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\config\\knex\\migration.stub.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Omyy\\source\\repos\\btlz-wb-test\\src\\postgres\\migrations\\20250919143000_create_spreadsheets_table.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\postgres\\migrations\\20250919143000_create_spreadsheets_table.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Omyy\\source\\repos\\btlz-wb-test\\src\\services\\WBApiService.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\services\\WBApiService.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Omyy\\source\\repos\\btlz-wb-test\\src\\services\\TariffDbService.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\services\\TariffDbService.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Omyy\\source\\repos\\btlz-wb-test\\src\\services\\GoogleSheetsService.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\services\\GoogleSheetsService.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Omyy\\Downloads\\testprojectwb-472611-2e7683678372.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": ".gitattributes",
+              "DocumentMoniker": "C:\\Users\\Omyy\\source\\repos\\btlz-wb-test\\.gitattributes",
+              "RelativeDocumentMoniker": ".gitattributes",
+              "ToolTip": "C:\\Users\\Omyy\\source\\repos\\btlz-wb-test\\.gitattributes",
+              "RelativeToolTip": ".gitattributes",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-09-19T18:00:59.506Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": ".gitignore",
+              "DocumentMoniker": "C:\\Users\\Omyy\\source\\repos\\btlz-wb-test\\.gitignore",
+              "RelativeDocumentMoniker": ".gitignore",
+              "ToolTip": "C:\\Users\\Omyy\\source\\repos\\btlz-wb-test\\.gitignore",
+              "RelativeToolTip": ".gitignore",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-09-19T17:25:55.607Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": ".prettierrc.json",
+              "DocumentMoniker": "C:\\Users\\Omyy\\source\\repos\\btlz-wb-test\\.prettierrc.json",
+              "RelativeDocumentMoniker": ".prettierrc.json",
+              "ToolTip": "C:\\Users\\Omyy\\source\\repos\\btlz-wb-test\\.prettierrc.json",
+              "RelativeToolTip": ".prettierrc.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-09-19T17:25:54.773Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "jsconfig.json",
+              "DocumentMoniker": "C:\\Users\\Omyy\\source\\repos\\btlz-wb-test\\jsconfig.json",
+              "RelativeDocumentMoniker": "jsconfig.json",
+              "ToolTip": "C:\\Users\\Omyy\\source\\repos\\btlz-wb-test\\jsconfig.json",
+              "RelativeToolTip": "jsconfig.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-09-19T17:25:53.462Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "package-lock.json",
+              "DocumentMoniker": "C:\\Users\\Omyy\\source\\repos\\btlz-wb-test\\package-lock.json",
+              "RelativeDocumentMoniker": "package-lock.json",
+              "ToolTip": "C:\\Users\\Omyy\\source\\repos\\btlz-wb-test\\package-lock.json",
+              "RelativeToolTip": "package-lock.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-09-19T17:25:52.589Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "seed.stub.js",
+              "DocumentMoniker": "C:\\Users\\Omyy\\source\\repos\\btlz-wb-test\\src\\config\\knex\\seed.stub.js",
+              "RelativeDocumentMoniker": "src\\config\\knex\\seed.stub.js",
+              "ToolTip": "C:\\Users\\Omyy\\source\\repos\\btlz-wb-test\\src\\config\\knex\\seed.stub.js",
+              "RelativeToolTip": "src\\config\\knex\\seed.stub.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-09-19T17:20:33.905Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "migration.stub.js",
+              "DocumentMoniker": "C:\\Users\\Omyy\\source\\repos\\btlz-wb-test\\src\\config\\knex\\migration.stub.js",
+              "RelativeDocumentMoniker": "src\\config\\knex\\migration.stub.js",
+              "ToolTip": "C:\\Users\\Omyy\\source\\repos\\btlz-wb-test\\src\\config\\knex\\migration.stub.js",
+              "RelativeToolTip": "src\\config\\knex\\migration.stub.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-09-19T17:20:33.296Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "20250227184908_tariffs.ts",
+              "DocumentMoniker": "C:\\Users\\Omyy\\source\\repos\\btlz-wb-test\\src\\postgres\\migrations\\20250227184908_tariffs.ts",
+              "RelativeDocumentMoniker": "src\\postgres\\migrations\\20250227184908_tariffs.ts",
+              "ToolTip": "C:\\Users\\Omyy\\source\\repos\\btlz-wb-test\\src\\postgres\\migrations\\20250227184908_tariffs.ts",
+              "RelativeToolTip": "src\\postgres\\migrations\\20250227184908_tariffs.ts",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2025-09-19T17:20:31.328Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "20250919143000_create_spreadsheets_table.ts",
+              "DocumentMoniker": "C:\\Users\\Omyy\\source\\repos\\btlz-wb-test\\src\\postgres\\migrations\\20250919143000_create_spreadsheets_table.ts",
+              "RelativeDocumentMoniker": "src\\postgres\\migrations\\20250919143000_create_spreadsheets_table.ts",
+              "ToolTip": "C:\\Users\\Omyy\\source\\repos\\btlz-wb-test\\src\\postgres\\migrations\\20250919143000_create_spreadsheets_table.ts",
+              "RelativeToolTip": "src\\postgres\\migrations\\20250919143000_create_spreadsheets_table.ts",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2025-09-19T17:20:18.303Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "readme.md",
+              "DocumentMoniker": "C:\\Users\\Omyy\\source\\repos\\btlz-wb-test\\readme.md",
+              "RelativeDocumentMoniker": "readme.md",
+              "ToolTip": "C:\\Users\\Omyy\\source\\repos\\btlz-wb-test\\readme.md",
+              "RelativeToolTip": "readme.md",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAADEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
+              "WhenOpened": "2025-09-19T17:12:30.77Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "package.json",
+              "DocumentMoniker": "C:\\Users\\Omyy\\source\\repos\\btlz-wb-test\\package.json",
+              "RelativeDocumentMoniker": "package.json",
+              "ToolTip": "C:\\Users\\Omyy\\source\\repos\\btlz-wb-test\\package.json",
+              "RelativeToolTip": "package.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-09-19T17:12:30.201Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Dockerfile",
+              "DocumentMoniker": "C:\\Users\\Omyy\\source\\repos\\btlz-wb-test\\Dockerfile",
+              "RelativeDocumentMoniker": "Dockerfile",
+              "ToolTip": "C:\\Users\\Omyy\\source\\repos\\btlz-wb-test\\Dockerfile",
+              "RelativeToolTip": "Dockerfile",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-09-19T16:51:54.986Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "testprojectwb-472611-2e7683678372.json",
+              "DocumentMoniker": "C:\\Users\\Omyy\\Downloads\\testprojectwb-472611-2e7683678372.json",
+              "RelativeDocumentMoniker": "..\\..\\..\\Downloads\\testprojectwb-472611-2e7683678372.json",
+              "ToolTip": "C:\\Users\\Omyy\\Downloads\\testprojectwb-472611-2e7683678372.json",
+              "RelativeToolTip": "..\\..\\..\\Downloads\\testprojectwb-472611-2e7683678372.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-09-19T16:51:39.295Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "WBApiService.ts",
+              "DocumentMoniker": "C:\\Users\\Omyy\\source\\repos\\btlz-wb-test\\src\\services\\WBApiService.ts",
+              "RelativeDocumentMoniker": "src\\services\\WBApiService.ts",
+              "ToolTip": "C:\\Users\\Omyy\\source\\repos\\btlz-wb-test\\src\\services\\WBApiService.ts",
+              "RelativeToolTip": "src\\services\\WBApiService.ts",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAEwBwAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2025-09-19T16:50:08.808Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "TariffDbService.ts",
+              "DocumentMoniker": "C:\\Users\\Omyy\\source\\repos\\btlz-wb-test\\src\\services\\TariffDbService.ts",
+              "RelativeDocumentMoniker": "src\\services\\TariffDbService.ts",
+              "ToolTip": "C:\\Users\\Omyy\\source\\repos\\btlz-wb-test\\src\\services\\TariffDbService.ts",
+              "RelativeToolTip": "src\\services\\TariffDbService.ts",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2025-09-19T16:50:06.998Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "GoogleSheetsService.ts",
+              "DocumentMoniker": "C:\\Users\\Omyy\\source\\repos\\btlz-wb-test\\src\\services\\GoogleSheetsService.ts",
+              "RelativeDocumentMoniker": "src\\services\\GoogleSheetsService.ts",
+              "ToolTip": "C:\\Users\\Omyy\\source\\repos\\btlz-wb-test\\src\\services\\GoogleSheetsService.ts",
+              "RelativeToolTip": "src\\services\\GoogleSheetsService.ts",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAgwCQAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2025-09-19T16:49:39.189Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "example.env",
+              "DocumentMoniker": "C:\\Users\\Omyy\\source\\repos\\btlz-wb-test\\example.env",
+              "RelativeDocumentMoniker": "example.env",
+              "ToolTip": "C:\\Users\\Omyy\\source\\repos\\btlz-wb-test\\example.env",
+              "RelativeToolTip": "example.env",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAA6CQAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-09-19T16:47:35.796Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "compose.yaml",
+              "DocumentMoniker": "C:\\Users\\Omyy\\source\\repos\\btlz-wb-test\\compose.yaml",
+              "RelativeDocumentMoniker": "compose.yaml",
+              "ToolTip": "C:\\Users\\Omyy\\source\\repos\\btlz-wb-test\\compose.yaml",
+              "RelativeToolTip": "compose.yaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003775|",
+              "WhenOpened": "2025-09-19T16:47:34.147Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "app.ts",
+              "DocumentMoniker": "C:\\Users\\Omyy\\source\\repos\\btlz-wb-test\\src\\app.ts",
+              "RelativeDocumentMoniker": "src\\app.ts",
+              "ToolTip": "C:\\Users\\Omyy\\source\\repos\\btlz-wb-test\\src\\app.ts",
+              "RelativeToolTip": "src\\app.ts",
+              "ViewState": "AgIAABsAAAAAAAAAAAAAAC4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2025-09-19T15:47:20.507Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
