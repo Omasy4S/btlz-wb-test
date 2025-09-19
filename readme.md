@@ -2,6 +2,7 @@
 
 > **Цель**: Создать сервис, который ежечасно получает тарифы WB, сохраняет их в БД и выгружает в N Google Таблиц.
 Сама таблица для просмотра вывода. На данный момент там тестовые значения:
+> 
 https://docs.google.com/spreadsheets/d/1-4PQMJzV2xs85uGjdHAFeLGwTA7qlbJFj38uzFyeVfE/edit?gid=0#gid=0
 
 ---
