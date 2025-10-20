@@ -2,6 +2,9 @@ import env from "#config/env/env.js";
 import { Knex } from "knex";
 import { z } from "zod";
 
+/**
+ * Схема валидации параметров подключения к PostgreSQL
+ */
 const connectionSchema = z.object({
     host: z.string(),
     port: z.number(),
@@ -12,7 +15,12 @@ const connectionSchema = z.object({
 
 const NODE_ENV = env.NODE_ENV ?? "development";
 
-const knegConfigs: Record<typeof NODE_ENV, Knex.Config> = {
+/**
+ * Конфигурация Knex для разных окружений
+ * - development: локальная разработка с TypeScript
+ * - production: продакшен с скомпилированным JavaScript
+ */
+const knexConfigs: Record<typeof NODE_ENV, Knex.Config> = {
     development: {
         client: "pg",
         connection: () =>
@@ -28,15 +36,15 @@ const knegConfigs: Record<typeof NODE_ENV, Knex.Config> = {
             max: 10,
         },
         migrations: {
-            stub: 'src/config/knex/migration.stub.js',
+            stub: "src/config/knex/migration.stub.js",
             directory: "./src/postgres/migrations",
             tableName: "migrations",
             extension: "ts",
         },
         seeds: {
-            stub: 'src/config/knex/seed.stub.js',
+            stub: "src/config/knex/seed.stub.js",
             directory: "./src/postgres/seeds",
-            extension: "js",
+            extension: "ts",
         },
     },
     production: {
@@ -54,17 +62,17 @@ const knegConfigs: Record<typeof NODE_ENV, Knex.Config> = {
             max: 10,
         },
         migrations: {
-            stub: 'dist/config/knex/migration.stub.js',
+            stub: "dist/config/knex/migration.stub.js",
             directory: "./dist/postgres/migrations",
             tableName: "migrations",
             extension: "js",
         },
         seeds: {
-            stub: 'src/config/knex/seed.stub.js',
+            stub: "dist/config/knex/seed.stub.js",
             directory: "./dist/postgres/seeds",
             extension: "js",
         },
     },
 };
 
-export default knegConfigs[NODE_ENV];
+export default knexConfigs[NODE_ENV];

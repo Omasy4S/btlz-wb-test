@@ -1,4 +1,4 @@
-﻿# provide a name if you wish
+# provide a name if you wish
 # name: btlz-test
 
 networks:
@@ -78,5 +78,5 @@ services:
         max-size: 10m
         max-file: 5
 
-    command: [ "npm", "run", "start" ]
+    command: [ "node", "dist/app.js" ]
     restart: unless-stopped

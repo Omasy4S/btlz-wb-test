@@ -1,38 +1,60 @@
-# your node version
+# ============================================
+# Stage 1: Установка production зависимостей
+# ============================================
 FROM node:20-alpine AS deps-prod
 
 WORKDIR /app
 
-COPY ./package*.json .
+# Копируем файлы зависимостей
+COPY package*.json ./
 
-RUN npm install --omit=dev
+# Устанавливаем только production зависимости
+RUN npm ci --omit=dev --ignore-scripts
 
-FROM deps-prod AS build
+# ============================================
+# Stage 2: Сборка приложения
+# ============================================
+FROM node:20-alpine AS build
 
-RUN npm install --include=dev
+WORKDIR /app
 
-# �������� �����������
-RUN npm install knex pg axios node-cron
+# Копируем файлы зависимостей
+COPY package*.json ./
 
-# ���� ��� TypeScript
-RUN npm install --save-dev @types/knex @types/pg @types/axios @types/node-cron tsx
+# Устанавливаем все зависимости (включая dev)
+RUN npm ci --ignore-scripts
 
-# Google API
-RUN npm install googleapis
-
-# ���� �� ���� � ��� ��������
-RUN npm install --save-dev typescript
-
-CMD ["node", "dist/app.js"]
-
+# Копируем исходный код
 COPY . .
 
+# Компилируем TypeScript в JavaScript
 RUN npm run build
 
+# ============================================
+# Stage 3: Production образ
+# ============================================
 FROM node:20-alpine AS prod
 
 WORKDIR /app
 
-COPY --from=build /app/package*.json .
+# Создаем непривилегированного пользователя для безопасности
+RUN addgroup -g 1001 -S nodejs && \
+    adduser -S nodejs -u 1001
+
+# Копируем package.json для метаданных
+COPY --from=build /app/package*.json ./
+
+# Копируем production зависимости из первого stage
 COPY --from=deps-prod /app/node_modules ./node_modules
+
+# Копируем скомпилированный код из второго stage
 COPY --from=build /app/dist ./dist
+
+# Меняем владельца файлов на непривилегированного пользователя
+RUN chown -R nodejs:nodejs /app
+
+# Переключаемся на непривилегированного пользователя
+USER nodejs
+
+# Указываем команду запуска
+CMD ["node", "dist/app.js"]

@@ -1,6 +1,12 @@
+/**
+ * Основной модуль для работы с Knex.js
+ * Экспортирует инстанс knex и утилиты для миграций/seeds
+ */
+
 import _knex from "knex";
 import knexConfig from "#config/knex/knexfile.js";
 
+// Создаем и экспортируем инстанс Knex
 const knex = _knex(knexConfig);
 export default knex;
 
@@ -61,7 +67,7 @@ export const migrate = {
             console.error("Please provide a migration name");
             process.exit(1);
         }
-        console.log(await knex.migrate.make(name, { extension: "js" }));
+        console.log(await knex.migrate.make(name, { extension: "ts" }));
     },
 };
 

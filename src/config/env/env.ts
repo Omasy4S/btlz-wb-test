@@ -1,38 +1,55 @@
-﻿import dotenv from "dotenv";
+import dotenv from "dotenv";
 import { z } from "zod";
+
+// Загружаем переменные окружения из .env файла
 dotenv.config();
 
+/**
+ * Схема валидации переменных окружения
+ * Использует Zod для строгой типизации и валидации
+ */
 const envSchema = z.object({
-    NODE_ENV: z.union([z.undefined(), z.enum(["development", "production"])]),
-    POSTGRES_HOST: z.union([z.undefined(), z.string()]),
+    // Окружение приложения (development/production)
+    NODE_ENV: z.enum(["development", "production"]).default("development"),
+    
+    // Настройки подключения к PostgreSQL
+    POSTGRES_HOST: z.string().default("localhost"),
     POSTGRES_PORT: z
         .string()
-        .regex(/^[0-9]+$/)
-        .transform((value) => parseInt(value)),
-    POSTGRES_DB: z.string(),
-    POSTGRES_USER: z.string(),
-    POSTGRES_PASSWORD: z.string(),
-    APP_PORT: z.union([
-        z.undefined(),
-        z
-            .string()
-            .regex(/^[0-9]+$/)
-            .transform((value) => parseInt(value)),
-    ]),
-    WB_API_KEY: z.string().optional(), // ← добавляем WB api, но делаем необязательным для тестов
-    GOOGLE_SHEETS_CREDENTIALS_JSON: z.string().optional(), // ← добавиляем google sheets, но делаем необязательным для тестов
+        .regex(/^[0-9]+$/, "POSTGRES_PORT должен быть числом")
+        .transform((val) => parseInt(val, 10)),
+    POSTGRES_DB: z.string().min(1, "POSTGRES_DB обязателен"),
+    POSTGRES_USER: z.string().min(1, "POSTGRES_USER обязателен"),
+    POSTGRES_PASSWORD: z.string().min(1, "POSTGRES_PASSWORD обязателен"),
+    
+    // Порт приложения
+    APP_PORT: z
+        .string()
+        .regex(/^[0-9]+$/, "APP_PORT должен быть числом")
+        .transform((val) => parseInt(val, 10))
+        .default("5000"),
+    
+    // API ключ Wildberries (опционально для тестирования)
+    WB_API_KEY: z.string().optional(),
+    
+    // Google Sheets credentials в формате JSON (опционально для тестирования)
+    GOOGLE_SHEETS_CREDENTIALS_JSON: z.string().optional(),
 });
 
+/**
+ * Парсинг и валидация переменных окружения
+ * При ошибке валидации приложение упадет с понятным сообщением
+ */
 const env = envSchema.parse({
+    NODE_ENV: process.env.NODE_ENV,
     POSTGRES_HOST: process.env.POSTGRES_HOST,
     POSTGRES_PORT: process.env.POSTGRES_PORT,
     POSTGRES_DB: process.env.POSTGRES_DB,
     POSTGRES_USER: process.env.POSTGRES_USER,
     POSTGRES_PASSWORD: process.env.POSTGRES_PASSWORD,
-    NODE_ENV: process.env.NODE_ENV,
     APP_PORT: process.env.APP_PORT,
-    WB_API_KEY: process.env.WB_API_KEY, // ← добавляем WB api
-    GOOGLE_SHEETS_CREDENTIALS_JSON: process.env.GOOGLE_SHEETS_CREDENTIALS_JSON, // ← добавиляем google sheets
+    WB_API_KEY: process.env.WB_API_KEY,
+    GOOGLE_SHEETS_CREDENTIALS_JSON: process.env.GOOGLE_SHEETS_CREDENTIALS_JSON,
 });
 
 export default env;
