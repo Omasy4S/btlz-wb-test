@@ -12,9 +12,9 @@ export class GoogleSheetsService {
     private readonly SHEET_NAME = "stocks_coefs";
 
     constructor() {
-        // Парсим JSON credentials из переменной окружения
+        // Парсим JSON credentials из переменной окружения один раз при инициализации
         const credentialsJson = process.env.GOOGLE_SHEETS_CREDENTIALS_JSON || "{}";
-        
+
         let credentials;
         try {
             credentials = JSON.parse(credentialsJson);
